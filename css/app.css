@@ -107,7 +107,7 @@ img {
 .hero{
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,10 +135,6 @@ img {
 }
 
 /* DEBUG RULES */
-.container {
-	border: 2px solid black;
-}
-
 .row {
 	border: 2px solid red;
 	padding: 16px;
