@@ -33,7 +33,6 @@ img {
 }
 
 .section {
-    min-height: 350px;
     display: flex;
 }
 
