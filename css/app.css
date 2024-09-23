@@ -27,13 +27,11 @@ img {
 }
 
 .main-section {
-    min-height: 300px;
+        margin: 0 auto;
+        padding: 0 230px;
+        min-height: 298px;
 }
 
-.big-image-section {
-    min-height: 600px;
-    min-width: auto;
-}
 .section {
     min-height: 350px;
     display: flex;
@@ -57,6 +55,12 @@ img {
 .bg-white {
     background-color: white;
     color: black;
+    font-weight: 8px;
+}
+
+.bg-black {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 8px;
 }
 
@@ -111,8 +115,25 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
+.hero-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.hero-pill {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
 /* FIRST SECTION */
 .layout-columns {
     display: flex;
@@ -164,10 +185,6 @@ img {
 
 .bg-acqua {
     background-color: aquamarine;
-}
-
-.bg-black {
-    background-color: rgb(34, 34, 34);
 }
 
 .bg-yellow {
