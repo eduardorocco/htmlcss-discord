@@ -155,6 +155,12 @@ h1 {
 
 }
 
+.text-big-image-section {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
 /* FOOTER */
 .footer {
     display: flex;
