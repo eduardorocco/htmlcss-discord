@@ -1,0 +1,183 @@
+
+/* RESET RULES*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* LAYOUT */
+.container {
+	margin: 0 auto;
+	padding: 0 100px;
+}
+
+.main-section {
+    min-height: 300px;
+}
+
+.big-image-section {
+    min-height: 600px;
+    min-width: auto;
+}
+.section {
+    min-height: 350px;
+    display: flex;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row > * {
+	padding: 0 20px;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.col-33 {
+	width: calc(100% / 3);
+}
+
+.col-66 {
+	width: calc(2 * (100% / 3));
+}
+
+.col-32 {
+	width: calc(2 * (100% / 6));
+}
+
+.col-16 {
+	width: calc(100% / 6);
+}
+
+.p-10 {
+    padding-top: 10px;
+}
+/* HEADER */
+.main-header{
+    border: solid 1px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navbar {
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+    border: solid 1px;
+   
+}
+
+.main-menu {
+    display: flex;
+    gap: 20px;
+    border: solid 1px;
+}
+
+/* HERO */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FIRST SECTION */
+.layout-columns {
+    display: flex;
+    align-items: center;
+}
+
+/* CENTRAL SECTION */
+.central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+/* DEBUG RULES */
+.container {
+	border: 2px solid black;
+}
+
+.row {
+	border: 2px solid red;
+	padding: 16px;
+}
+
+.row > * {
+	border: 2px solid cornflowerblue;
+	padding: 16px;
+}
+
+.img {
+    min-width: 580px;
+    min-height: 400px;
+}
+/*DEBUG COLORS */
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-acqua {
+    background-color: aquamarine;
+}
+
+.bg-black {
+    background-color: rgb(34, 34, 34);
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: rgb(22, 160, 17);
+}
+
+.bg-magenta {
+    background-color: rgb(212, 0, 255);
+}
+
+/* DEBUG WIDTHS HEIGHTS */
+.w-500-h220 {
+    min-width: 450px;
+    min-height: 220px;
+}
+
+.h-200 {
+    min-height: 200px;
+}
