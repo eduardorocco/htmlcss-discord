@@ -48,6 +48,18 @@ img {
 	padding: 0 20px;
 }
 
+.pill {
+    border-radius: 999px;
+    padding: 10px;
+   
+}
+
+.bg-white {
+    background-color: white;
+    color: black;
+    font-weight: 8px;
+}
+
 .col-50 {
 	width: 50%;
 }
@@ -73,7 +85,7 @@ img {
 }
 /* HEADER */
 .main-header{
-    border: solid 1px;
+    background-color: #255ee9;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -82,18 +94,20 @@ img {
     display: flex;
 	align-items: center;
 	justify-content: space-between;
-    border: solid 1px;
+    color: white;
    
 }
 
 .main-menu {
     display: flex;
     gap: 20px;
-    border: solid 1px;
 }
 
 /* HERO */
 .hero{
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    
     display: flex;
     justify-content: center;
     align-items: center;
