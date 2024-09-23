@@ -52,9 +52,24 @@ img {
    
 }
 
+.footer-section {
+    color: white;
+}
+
 h1 {
     padding-bottom: 20px;
 }
+
+.lenguage {
+    font-size: smaller;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+
+}
+
 .bg-white {
     background-color: white;
     color: black;
@@ -77,6 +92,9 @@ h1 {
     font-weight: 8px;
 }
 
+.bg-antracite {
+    background-color: #23272a;
+}
 .col-50 {
 	width: 50%;
 }
