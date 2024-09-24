@@ -167,7 +167,7 @@ h1 {
 /* FIRST SECTION */
 .layout-columns {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 /* CENTRAL SECTION */
@@ -212,6 +212,9 @@ h1 {
 
 .list {
    padding-bottom: 10px;
+   
+
+
 }
 /* DEBUG RULES */
 .row {
@@ -219,7 +222,7 @@ h1 {
 	padding: 16px;
 }
 
-.row > * {
+.debug .row > * {
 	border: 2px solid cornflowerblue;
 	padding: 16px;
 }
