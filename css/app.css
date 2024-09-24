@@ -1,5 +1,5 @@
-
 /* RESET RULES*/
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -21,6 +21,10 @@ img {
 }
 
 /* LAYOUT */
+body {
+    font-family: "Open Sans";
+}
+
 .container {
 	margin: 0 auto;
 	padding: 0 100px;
